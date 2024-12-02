@@ -1,0 +1,362 @@
+/*Lex Williams: Stylesheet, 11/27/2024*/
+
+header { background-color: wheat;
+letter-spacing: .5em;
+text-align: center;
+}
+
+nav {background-color: #3C4190; 
+    font-weight: bold; 
+    text-align: center;
+    padding: 0;
+    font-size: 120%;
+}
+nav a {text-decoration: none;
+}
+
+nav ul {list-style-image: none;
+    margin: 0;
+    font-size: 1.2em;
+	padding: 0;
+}
+
+nav li { 
+border-bottom: 1px solid hsl(0, 30%, 62%); }
+
+nav a:link{color: wheat;}
+nav a:visited{color: olive ;}
+nav a:hover{color: #000000;}
+
+a {text-decoration: none;}
+a:link{color: #3C4190;}
+a:visited{color: black;}
+a:hover{color: olive;}
+
+body {background-color: wheat;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: black;
+   }
+
+img { display: block;
+    margin-left: auto;
+    margin-right: auto;
+width: 70%;
+height: 40%;}
+
+
+p {color: #3C4190;}
+
+
+ form { background-color: #eaeaea;
+                   font-family: Arial, sans-serif;
+                   width: 350px;
+                   padding: 10px;
+				   margin: 10em;
+				   
+            }
+            label { float: left;
+                    clear: left;
+                    display: block;
+                    width: 100px;
+                    padding-right: 10px;
+                    margin-top: 10px;
+                    text-align: right; 
+					
+            }
+            input, textarea { display: block;
+                    margin-top: 10px;
+					
+            }
+            input[type="submit"]{ margin-left: 110px; 
+		} 
+
+            form { display: grid;
+                grid-template-rows: auto; 
+                grid-template-columns: 6em 1fr; 
+                gap: 1em;
+                background-color: #EAEAEA; 
+                font-family: Arial, sans-serif; 
+                width: 60%; 
+                min-width: 20em; 
+                padding: 2em;
+			}
+
+            input[type="submit"] { grid-column: 2 / 3;
+                                    width: 10em; 
+                                    margin-left: 0; }
+        
+       
+@media (min-width: 800px) {
+	
+    body {background-color: wheat; 
+     background-image: none;
+     
+   }
+   
+    header {
+        height: 100px;
+        width: 100%;
+        background-image:url(Leo.jpg);
+        background-size: 10% 100%;
+        background-repeat: no-repeat;
+        background-position: right;
+        text-align: center;
+        letter-spacing: 10px;
+        background-color: #3C4190 ;
+        font-family: sans-serif;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        color: wheat;
+    }
+    
+a {text-decoration: none;}
+a:link {color: #3C4190;}
+a:visited {color: darkgrey;}
+   
+    nav  {text-decoration: none;
+        text-align: left ;
+        background-color: wheat;
+        background-size: 100% 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        font-family: sans-serif;
+        font-size: large;
+        padding: 1em;}
+    
+    nav a {text-decoration: none;
+    }
+   
+   nav ul { display: flex;
+    text-decoration: none;
+       flex-wrap: nowrap;
+       justify-content: space-between;
+   }
+   nav li { text-decoration: none;
+    border-bottom: none;
+    list-style-type: none;
+    margin-right: 1em;
+    margin-left: 1em;}
+
+li {text-decoration: none;}
+   section { margin-left: 2em;
+   margin-right: 2em;
+   flex:1; }
+  
+nav a:link{color: #3C4190;}
+nav a:visited{color: olive ;}
+nav a:hover{color: #000000;} 
+   
+   .flow {	display: flex;
+   flex-direction: row;
+   flex: 1; }
+  
+ 
+}
+
+   img {display: block;
+    margin-right: auto;
+   margin-left: auto;
+   width: 50%;
+   height: 35%;}
+   }
+
+
+p { margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+h1{ margin-top: 1em;
+    margin-bottom: 1em;}
+
+h2{ text-align: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+   }
+
+h3{margin-left: 4em;
+}
+
+h4{margin-left: 25em;
+    }
+
+h5{text-align: center;}
+
+p2 { margin-left: 15em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-style: italic;   
+}
+
+
+@media (min-width: 1250px) {
+
+body { background-color: wheat; 
+    background-image: url(artlore.jpg);
+    background-size: 25% 25%;
+    background-repeat: repeat;
+    padding-top: 5em;
+    padding-bottom: 5em;}
+
+#wrapper { margin:0 auto; 
+    width: 90%;
+    background-color: whitesmoke ;
+    min-width: 960px;
+    max-width: 2048px;
+
+    
+     }
+
+img {align-items: center;
+}
+header {
+    height: 100px;
+    width: 100%;
+    background-image:url(Leo.jpg);
+    background-size: 10% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+    letter-spacing: 10px;
+    background-color: #3C4190 ;
+    margin: 10 10 10 10;
+    font-family: monospace;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    color: wheat;
+}
+
+
+nav  {text-decoration: none;
+    text-align: left ;
+    background-color: wheat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: large;
+   }
+
+nav a {text-decoration: none;
+    list-style-type: none;
+
+}
+
+nav ul {text-decoration: none;
+    margin: .25em;
+    font-size: 1.5em;
+	padding: .20em;
+	
+}
+
+nav li { 
+list-style: none;
+display: inline; 
+ }
+
+nav a:link{color: #C35858 ;}
+nav a:visited{color:#3C4190  ;}
+nav a:hover{color: olive;}
+
+
+p { margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    padding-bottom: 2em;
+    color: #000000;
+}
+
+h1{ margin-top: 1em;
+    margin-bottom: 1em;
+    }
+
+h2{ text-align: left;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    color: #000000;
+   }
+
+h3{margin-left: 4em;
+    color: black;
+}
+
+h4{margin-left: 25em;
+    color: black;
+    }
+
+h5{text-align: center;
+color:black;}
+
+p2 { margin-left: 15em;
+    margin-right: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-style: italic;   
+color: #000000;}
+
+img{ display: block;
+     margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+    height: 25%;
+  
+}
+
+#venus {height: 30em;
+    width: 20em;
+    margin-left: 20%;
+    margin-bottom: 3em;}
+   
+
+#monalisa { height: 4em;
+            width: 2.5em;
+            margin-left: 0;
+            }
+#Scream {height:15em;
+    width: 20em;
+    margin-left: auto;
+    margin-right: auto;}
+        
+
+a {text-decoration: none;
+}
+a:link { color: black;}
+a:visited{color:#3C4190;}
+a:hover { color: olive;}
+
+    form { display: grid;
+                grid-template-rows: auto; 
+                grid-template-columns: 6em 1fr; 
+                gap: 1em;
+                background-color: #EAEAEA; 
+                font-family: Arial, sans-serif; 
+                width: 50%; 
+                min-width: 20em; 
+                padding: 2em;
+				margin-left:20em;
+				margin-right:10em;
+			}
+
+footer{text-align: left;
+    margin-left: 1em;
+    padding-bottom: .5em;
+    color: #000000;
+}
+
+} 
+
+
+
+
+
+
+
+   
+  
